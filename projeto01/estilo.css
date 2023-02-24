@@ -1,0 +1,98 @@
+/* Comentário */
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #817777;
+    background-color: #fff;
+    line-height: 17px;
+
+}
+
+header{
+    background-color: #000;
+    height: 80px;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    color: #fff;
+    font-size: 36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+    float: left;
+}
+
+p{
+    text-align: justify;
+
+}
+
+nav{
+    float: right;
+    padding: 23px 7px 0 0;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    float: left;
+    padding-left: 50px;
+}
+
+nav ul li a{
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul li a.ativo{
+    text-decoration: none;
+    color: #ec0086;
+}
+
+nav ul li a:focus{
+    text-decoration: none;
+    color: #ec0086;
+}
+
+img{
+    float: right;
+    padding: 3px 0 0 25px;
+}
+
+footer{
+    background-color: #A9A9A9;
+    font-size: 12px;
+    padding: 10px 2px 0 0;
+    color: #524a4a;
+    margin: 10px;
+    border-top: 1px solid #ccc;
+    clear: both;
+    height: 60px;
+}
+
+.principal{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.caixa{
+    float: left;
+    width: 375px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#lf{
+    float: left;
+}
+
+#rf{
+    float: right;
+}
